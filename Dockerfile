@@ -1,4 +1,4 @@
-FROM cr.msk.sbercloud.ru/aicloud-jupyter/jupyter-cuda11.1-pt1.9.1-gpu-a100:0.0.82-1
+FROM cr.msk.sbercloud.ru/aicloud-jupyter-test/jupyter-cuda11.7-pt2:cbfa7664-374246
 
 ARG PYTHON_VERSION=3.8.13
 ARG HADOOP_VERSION=3.2.3
